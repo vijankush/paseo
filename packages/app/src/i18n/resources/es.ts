@@ -344,11 +344,14 @@ export const es: TranslationResources = {
       title: "Tareas",
       empty: "Aún no hay tareas.",
       tasksProgress: "{{completed}}/{{total}} tareas",
+      tasksProgressWithAbandoned: "{{settled}}/{{total}} tareas · abandonadas: {{abandoned}}",
       activity: {
         created: "Se crearon {{count}} tareas",
         added: "Añadida",
         started: "Iniciada",
         completed: "Completada",
+        blocked: "Bloqueada",
+        abandoned: "Abandonada",
       },
     },
     compaction: {
